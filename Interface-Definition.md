@@ -3,6 +3,9 @@
 Interface files are named after the interface they implement with the suffix `.varlink`.
 
 ## Keywords
+
+See the following table for keywords.
+
 |Keyword          |Description                                                     |
 |-----------------|----------------------------------------------------------------|
 |interface        |The name of the interface in reverse-domain name notation. It must be the first keyword in the description.|
