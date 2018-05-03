@@ -1,5 +1,4 @@
 remote_theme: "mmistakes/minimal-mistakes"
-title: "Varlink"
 defaults:
   # _pages
   - scope:
