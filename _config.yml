@@ -1,12 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes"
 defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
   # _pages
   - scope:
       path: ""
@@ -14,4 +7,5 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+      sidebar:
+        nav: "docs"
