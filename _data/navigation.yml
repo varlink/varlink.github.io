@@ -42,3 +42,32 @@ docs:
         url: /Interface-Definition#grammar
       - title: "Parsing Expression Grammar"
         url: /Interface-Definition#parsing-expression-grammar
+
+- title: Ideals
+    children:
+      - title: "Simplicity"
+        url: /Ideals#simplicity
+      - title: "Discoverability"
+        url: /Ideals#discoverability
+      - title: "Remotability"
+        url: /Ideals#remotability
+      - title: "Focus"
+        url: /Ideals#focus
+      - title: "Errors"
+        url: /Ideals#errors
+      - title: "Testing"
+        url: /Ideals#testing
+
+- title: Language Bindings
+    children:
+      - title: "C"
+        url: https://github.com/varlink/libvarlink
+      - title: "Go"
+        url: https://github.com/varlink/go
+      - title: "Python"
+        url: https://github.com/varlink/python
+      - title: "Rust"
+        url: https://github.com/varlink/rust
+      - title: "Certification"
+        url: /Language-Bindings#how-to-test-new-language-bindings
+        
