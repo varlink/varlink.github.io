@@ -1,45 +1,30 @@
 docs:
-  - title: Getting Started
+  - title: Varlink
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Interface"
+        url: #interface
+      - title: "Protocol"
+        url: #protocol
+      - title: "Service"
+        url: #service
+      - title: "Address"
+        url: #address
+      - title: "Activation"
+        url: #activation
+      - title: "Resolver"
+        url: #resolver
+      - title: "Bridge"
+        url: #bridge
 
-  - title: Customization
+- title: Method Call
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: "Call"
+        url: /Method-Call#call
+      - title: "Reply"
+        url: /Method-Call#reply
 
-  - title: Content
+- title: Service
     children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
-
+      - title: "Example Information"
+        url: /Service#example-information
+        
