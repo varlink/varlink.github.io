@@ -2,19 +2,19 @@ docs:
   - title: Varlink
     children:
       - title: "Interface"
-        url: #interface
+        url: /Home#interface
       - title: "Protocol"
-        url: #protocol
+        url: /Home#protocol
       - title: "Service"
-        url: #service
+        url: /Home#service
       - title: "Address"
-        url: #address
+        url: /Home#address
       - title: "Activation"
-        url: #activation
+        url: /Home#activation
       - title: "Resolver"
-        url: #resolver
+        url: /Home#resolver
       - title: "Bridge"
-        url: #bridge
+        url: /Home#bridge
 
   - title: Method Call
     children:
