@@ -70,3 +70,25 @@ docs:
         url: https://github.com/varlink/rust
       - title: "Certification"
         url: /Language-Bindings#how-to-test-new-language-bindings
+
+  - title: Clients
+    children:
+      - title: "Varlink Command Line Tool"
+        url: /Clients#varlink-command-line-tool
+      - title: "socat"
+        url: /Clients#socat
+      - title: "Python"
+        url: /Clients#python
+
+  - title: Screenshots
+    children:
+      - title: "Command Lin"
+        url: /Screenshots#commandline
+      - title: "Transports"
+        url: /Screenshots#transports
+      - title: "Remote Host"
+        url: /Screenshots#remote-host
+      - title: "Local System"
+        url: /Screenshots#local-system
+      - title: "Kernel Module"
+        url: /Screenshots#kernel-module
