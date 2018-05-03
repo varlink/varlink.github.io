@@ -4,8 +4,6 @@ Interface files are named after the interface they implement with the suffix `.v
 
 ## Keywords
 
-See the following table for keywords.
-
 |Keyword          |Description                                                     |
 |-----------------|----------------------------------------------------------------|
 |interface        |The name of the interface in reverse-domain name notation. It must be the first keyword in the description.|
@@ -34,7 +32,7 @@ type MyType (
 )
 ```
 
-|Type             |Keyword|Description                                    |Example                           |
+|Type             |Keyword |Description                                    |Example                           |
 |-----------------|--------|-----------------------------------------------|----------------------------------|
 |Boolean          |bool    |_true_ or _false_                              |```flag: bool```                  |
 |Integer          |int     |Implementation-specific size, usually `int64`  |```whole: int```                  |
