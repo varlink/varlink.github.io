@@ -8,6 +8,7 @@
   upgrade: bool
 )
 ```
+
 |Keyword   |Description                                     |
 |----------|------------------------------------------------|
 |method    |*[mandatory]* fully-qualified method name _interface_._method_|
@@ -25,6 +26,7 @@
   upgraded: bool
 )
 ```
+
 |Keyword   |Description                                    |
 |----------|-----------------------------------------------|
 |parameters|the output parameters of the reply or the error|
