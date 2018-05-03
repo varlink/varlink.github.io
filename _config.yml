@@ -1,20 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes"
+theme: jekyll-theme-minimal
 title: "Varlink"
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      sidebar:
-        nav: "docs"
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      sidebar:
-        nav: "docs"
+
 
