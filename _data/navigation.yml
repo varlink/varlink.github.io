@@ -16,7 +16,7 @@ docs:
       - title: "Bridge"
         url: #bridge
 
-- title: Method Call
+- title: "Method Call"
     children:
       - title: "Call"
         url: /Method-Call#call
@@ -28,7 +28,7 @@ docs:
       - title: "Example Information"
         url: /Service#example-information
         
-- title: Interface Definition
+- title: "Interface Definition"
     children:
       - title: "Keywords"
         url: /Interface-Definition#keywords
@@ -58,7 +58,7 @@ docs:
       - title: "Testing"
         url: /Ideals#testing
 
-- title: Language Bindings
+- title: "Language Bindings"
     children:
       - title: "C"
         url: https://github.com/varlink/libvarlink
