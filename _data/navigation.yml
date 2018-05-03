@@ -28,3 +28,17 @@ docs:
       - title: "Example Information"
         url: /Service#example-information
         
+- title: Interface Definition
+    children:
+      - title: "Keywords"
+        url: /Interface-Definition#keywords
+      - title: "Type"
+        url: /Interface-Definition#type
+      - title: "Method"
+        url: /Interface-Definition#method
+      - title: "Error"
+        url: /Interface-Definition#error
+      - title: "Grammar"
+        url: /Interface-Definition#grammar
+      - title: "Parsing Expression Grammar"
+        url: /Interface-Definition#parsing-expression-grammar
