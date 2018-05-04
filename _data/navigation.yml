@@ -19,6 +19,8 @@ docs:
         url: https://github.com/varlink/libvarlink
       - title: "Go"
         url: https://github.com/varlink/go
+      - title: "Java"
+        url: https://github.com/varlink/java
       - title: "Python"
         url: https://github.com/varlink/python
       - title: "Rust"
