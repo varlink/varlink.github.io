@@ -18,6 +18,9 @@ defaults:
       layout: single
       sidebar:
         nav: "docs"
+    header:
+        image: /images/varlink.png
+
 
 
 
