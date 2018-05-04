@@ -1,3 +1,8 @@
+---
+title: "Screenshots"
+toc: true
+---
+
 ## Command Line
 The varlink command line tool with TAB-completion of locally registered interfaces.
 
