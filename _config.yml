@@ -1,5 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes"
-title: "Varlink"
+title: "<img src=\"/images/varlink.png\">Varlink"
 og_image: /images/varlink.png
 defaults:
   # _pages
