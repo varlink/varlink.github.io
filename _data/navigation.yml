@@ -1,21 +1,15 @@
 docs:
   - title: Varlink
     url: /
-
-  - title: Method Call
-    url: /Method-Call
- 
-  - title: Service
-    url: /Service
-         
-  - title: Interface Definition
-    url: /Interface Definition
- 
-  - title: Ideals
-    url: /Ideals
-    
-  - title: Language Bindings
     children:
+      - title: Method Call
+        url: /Method-Call
+      - title: Service
+        url: /Service
+      - title: Interface Definition
+        url: /Interface Definition
+      - title: Ideals
+        url: /Ideals
       - title: "C"
         url: https://github.com/varlink/libvarlink
       - title: "Go"
@@ -26,19 +20,14 @@ docs:
         url: https://github.com/varlink/rust
       - title: "Certification"
         url: /Language-Bindings#how-to-test-new-language-bindings
-
-  - title: Clients
-    url: /Clients
-    children:
       - title: "Varlink Command Line Tool"
         url: /Clients#varlink-command-line-tool
       - title: "socat"
         url: /Clients#socat
       - title: "Python"
         url: /Clients#python
-
-  - title: Screenshots
-    url: /Screenshots
+      - title: Screenshots
+        url: /Screenshots
 
   - title: Showcases
     children:
