@@ -10,20 +10,3 @@ defaults:
       layout: single
       sidebar:
         nav: "docs"
-      header:
-        image: /images/varlink.png
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      sidebar:
-        nav: "docs"
-      header:
-        image: /images/varlink.png
-
-
-
-
-
