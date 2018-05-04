@@ -1,3 +1,7 @@
+---
+title: "Varlink"
+toc: true
+---
 
 Varlink is an interface description format and protocol that aims to make services accessible to both humans and machines in the simplest feasible way.
 
