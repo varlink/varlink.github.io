@@ -1,5 +1,5 @@
 docs:
-  - title: Varlink
+  - title: Home
     url: /
     children:
       - title: Method Call
@@ -23,7 +23,7 @@ docs:
         url: https://github.com/varlink/python
       - title: "Rust"
         url: https://github.com/varlink/rust
-      - title: "Certification"
+      - title: "Testing/Certification"
         url: /Language-Bindings#how-to-test-new-language-bindings
 
   - title: Showcases
