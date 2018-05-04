@@ -1,3 +1,7 @@
+---
+title: "Clients"
+---
+
 ## varlink command line tool
 ```nim
 $ varlink call org.varlink.sysinfo.GetInfo

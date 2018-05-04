@@ -1,3 +1,8 @@
+---
+title: "Adding varlink to DNF"
+toc: true
+---
+
 This page shows, how to easily add a varlink interface to existing software.
 
 ## Prerequisites

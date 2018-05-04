@@ -1,3 +1,7 @@
+---
+title: "Service"
+---
+
 The [`org.varlink.service`](https://github.com/varlink/libvarlink/blob/master/lib/org.varlink.service.varlink) interface allows clients to retrieve a description of all the interfaces a service implements, and information which describes the service implementation.
 
 ```nim
@@ -31,6 +35,7 @@ error MethodNotImplemented (method: string)
 # One of the passed parameters is invalid.
 error InvalidParameter (parameter: string)
 ```
+
 ## Example Information
 |Field  |Value                                  |
 |-------|---------------------------------------|

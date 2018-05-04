@@ -1,10 +1,14 @@
-# Existing language bindings
+---
+title: "Language Bindings"
+---
+
+## Existing language bindings
 * [C](https://github.com/varlink/libvarlink)
 * [Go](https://github.com/varlink/go)
 * [Python](https://github.com/varlink/python)
 * [Rust](https://github.com/varlink/rust)
 
-# How to test new language bindings
+## How to test new language bindings
 
 Checkout the python varlink git repo:
 ```
@@ -33,7 +37,7 @@ from https://github.com/varlink/ against your server. If all works out, then
 your new language bindings should be varlink certified.
 
 ```markdown
-[<img src="https://raw.githubusercontent.com/wiki/varlink/documentation/images/varlink-certified.png" alt="varlink-certified" width="240" height="73">](https://github.com/varlink/documentation/wiki/Language-Bindings)
+[<img src="/images/varlink-certified.png" alt="varlink-certified" width="240" height="73">](https://www.varlink.org/Language-Bindings)
 ```
 
-[<img src="https://raw.githubusercontent.com/wiki/varlink/documentation/images/varlink-certified.png" alt="varlink-certified" width="240" height="73">](https://github.com/varlink/documentation/wiki/Language-Bindings)
+[<img src="/images/varlink-certified.png" alt="varlink-certified" width="240" height="73">](https://www.varlink.org/Language-Bindings)

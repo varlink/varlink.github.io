@@ -1,3 +1,7 @@
+---
+title: "Method Call"
+---
+
 ## Call
 ```nim
 (

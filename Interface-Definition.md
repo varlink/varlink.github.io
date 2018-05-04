@@ -1,4 +1,7 @@
-# Interface Definition
+---
+title: "Interface Definition"
+toc: true
+---
 
 Interface files are named after the interface they implement with the suffix `.varlink`.
 
