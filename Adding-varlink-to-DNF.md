@@ -132,4 +132,4 @@ $ varlink call unix:@com.redhat.packages/com.redhat.packages.List '{"packages": 
 }
 ```
 
-Other transport mechanisms can be specified via the [varlink address](https://github.com/varlink/documentation/wiki#address). ```varlink.SimpleServer``` supports ```exec:```, ```unix:``` and ```tcp:```.
+Other transport mechanisms can be specified via the [varlink address](/#address). ```varlink.SimpleServer``` supports ```exec:```, ```unix:``` and ```tcp:```.

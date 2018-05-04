@@ -137,7 +137,7 @@ Varlink services are expressed in URI form:
 |executed binary               |_exec:/usr/bin/org.example.ftl_ |Client-only, uses a UNIX socket       |
 |device node                   |_device:/dev/org.kernel.example_|                                      |
 
-See the [transport screenshot](https://github.com/varlink/documentation/wiki/Screenshots#transports) for examples.
+See the [transport screenshot](Screenshots#transports) for examples.
 
 ## Activation
 A listen socket a.k.a "FD3" might be passed to a varlink service at startup.
@@ -161,8 +161,8 @@ Multiple services can implement and offer the same interface, but only one of th
 See the [`org.varlink.resolver`](https://github.com/cherry-pick/com.redhat.resolver/blob/master/src/org.varlink.resolver.varlink) interface for details.
 
 ## Bridge
-The [varlink command line tool](https://github.com/varlink/documentation/wiki/Clients#varlink-command-line-tool) supports a `bridge` mode to bridge a single connection to the resolver and its registered services. It intercepts the calls to the `org.varlink.service` interface and replies with the information the resolver supplies.
+The [varlink command line tool](Clients#varlink-command-line-tool) supports a `bridge` mode to bridge a single connection to the resolver and its registered services. It intercepts the calls to the `org.varlink.service` interface and replies with the information the resolver supplies.
 
 If the bridge is used over SSH, all the interfaces of the locally running services appear to the remote ssh client as if they were implemented by the bridge.
 
-See a [screenshot](https://github.com/varlink/documentation/wiki/Screenshots#remote-host) as an example.
+See a [screenshot](Screenshots#remote-host) as an example.
