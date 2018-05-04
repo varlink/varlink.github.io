@@ -7,7 +7,7 @@ Varlink is an interface description format and protocol that aims to make servic
 
 A varlink interface combines the classic UNIX [command line options](https://en.wikipedia.org/wiki/Command-line_interface), [STDIN/OUT/ERROR](https://en.wikipedia.org/wiki/Standard_streams) text formats, [man pages](https://en.wikipedia.org/wiki/Man_page), service metadata and provides the equivalent over a single file descriptor, a.k.a. ["FD3"](#activation).
 
-Varlink is plain-text, type-safe, discoverable, self-documenting, remotable, testable, easy to debug. Varlink is accessible from any programming environment. See the [[Ideals]] page for more. And everybody likes [[Screenshots]].
+Varlink is plain-text, type-safe, discoverable, self-documenting, remotable, testable, easy to debug. Varlink is accessible from any programming environment. See the [Ideals](Ideals) page for more. And everybody likes [Screenshots](Screenshots).
 
 ## Interface
 A varlink interface has a reverse-domain name and specifies which methods the interface implements. Each method has named and typed input and output parameters. Complex types can be aliased with the `type` keyword to allow reusing them and to make method signatures easier to read. The interface also specifies the errors that may be returned from its method calls.
@@ -76,9 +76,9 @@ Varlink can operates on any transport that supports the concept of connections. 
 
 For simplicity reasons and to minimize the state the client needs to track, a single connection allows only one single pending method call at the time. Apart from pipelining, a connection is busy until the method call has returned. Replies on the same connection are always received in the order of the calls.
 
-The common case is a simple method call with a single reply. To support _monitoring calls_, _subscriptions_, _chunked data_, calls may carry instructions for the server to not reply, or to reply multiple times to a single method call. See the [[Method-Call]] page for a detailed description.
+The common case is a simple method call with a single reply. To support _monitoring calls_, _subscriptions_, _chunked data_, calls may carry instructions for the server to not reply, or to reply multiple times to a single method call. See the [Method Call](Method-Call) page for a detailed description.
 
-In common programming languages, varlink clients do not require complex modules or libraries, already existing JSON and socket communication facilities are used to integrate natively into the programming language's object model. See the examples in the [[Clients]] page.
+In common programming languages, varlink clients do not require complex modules or libraries, already existing JSON and socket communication facilities are used to integrate natively into the programming language's object model. See the examples in the [Clients](Clients) page.
 
 Requests specify the fully-qualified `method` that should be called, along with its input parameters:
 ```javascript
@@ -123,7 +123,7 @@ Errors contain the fully-qualified error and optional `parameters` as specified 
 ```
 
 ## Service
-Every varlink service offers the `org.varlink.service` interface, which describes all interfaces the service provides and provides information about the service implementation itself. See the [[Service]] page for details.
+Every varlink service offers the `org.varlink.service` interface, which describes all interfaces the service provides and provides information about the service implementation itself. See the [Service](Service) page for details.
 
 ## Address
 Varlink services are expressed in URI form:
