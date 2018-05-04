@@ -37,6 +37,7 @@ error InvalidParameter (parameter: string)
 ```
 
 ## Example Information
+
 |Field  |Value                                  |
 |-------|---------------------------------------|
 |vendor |_Fedora_                               |
