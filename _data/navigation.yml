@@ -10,6 +10,11 @@ docs:
         url: /Interface Definition
       - title: Ideals
         url: /Ideals
+      - title: Screenshots
+        url: /Screenshots
+
+  - title: Language Bindings
+    children:
       - title: "C"
         url: https://github.com/varlink/libvarlink
       - title: "Go"
@@ -20,14 +25,6 @@ docs:
         url: https://github.com/varlink/rust
       - title: "Certification"
         url: /Language-Bindings#how-to-test-new-language-bindings
-      - title: "Varlink Command Line Tool"
-        url: /Clients#varlink-command-line-tool
-      - title: "socat"
-        url: /Clients#socat
-      - title: "Python"
-        url: /Clients#python
-      - title: Screenshots
-        url: /Screenshots
 
   - title: Showcases
     children:
