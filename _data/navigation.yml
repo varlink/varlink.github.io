@@ -1,5 +1,5 @@
 docs:
-  - title: Home
+  - title: Varlink
     url: /
     children:
       - title: Method Call
