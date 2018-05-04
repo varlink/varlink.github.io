@@ -1,65 +1,19 @@
 docs:
   - title: Varlink
     url: /
-    children:
-      - title: "Interface"
-        url: /Home#interface
-      - title: "Protocol"
-        url: /Home#protocol
-      - title: "Service"
-        url: /Home#service
-      - title: "Address"
-        url: /Home#address
-      - title: "Activation"
-        url: /Home#activation
-      - title: "Resolver"
-        url: /Home#resolver
-      - title: "Bridge"
-        url: /Home#bridge
 
   - title: Method Call
-    url:   /Method-Call
-    children:
-      - title: "Call"
-        url: /Method-Call#call
-      - title: "Reply"
-        url: /Method-Call#reply
-
+    url: /Method-Call
+ 
   - title: Service
-    children:
-      - title: "Example Information"
-        url: /Service#example-information
-        
+    url: /Service
+         
   - title: Interface Definition
-    children:
-      - title: "Keywords"
-        url: /Interface-Definition#keywords
-      - title: "Type"
-        url: /Interface-Definition#type
-      - title: "Method"
-        url: /Interface-Definition#method
-      - title: "Error"
-        url: /Interface-Definition#error
-      - title: "Grammar"
-        url: /Interface-Definition#grammar
-      - title: "Parsing Expression Grammar"
-        url: /Interface-Definition#parsing-expression-grammar
-
+    url: /Interface Definition
+ 
   - title: Ideals
-    children:
-      - title: "Simplicity"
-        url: /Ideals#simplicity
-      - title: "Discoverability"
-        url: /Ideals#discoverability
-      - title: "Remotability"
-        url: /Ideals#remotability
-      - title: "Focus"
-        url: /Ideals#focus
-      - title: "Errors"
-        url: /Ideals#errors
-      - title: "Testing"
-        url: /Ideals#testing
-
+    url: /Ideals
+    
   - title: Language Bindings
     children:
       - title: "C"
@@ -74,6 +28,7 @@ docs:
         url: /Language-Bindings#how-to-test-new-language-bindings
 
   - title: Clients
+    url: /Clients
     children:
       - title: "Varlink Command Line Tool"
         url: /Clients#varlink-command-line-tool
@@ -83,17 +38,7 @@ docs:
         url: /Clients#python
 
   - title: Screenshots
-    children:
-      - title: "Command Line"
-        url: /Screenshots#commandline
-      - title: "Transports"
-        url: /Screenshots#transports
-      - title: "Remote Host"
-        url: /Screenshots#remote-host
-      - title: "Local System"
-        url: /Screenshots#local-system
-      - title: "Kernel Module"
-        url: /Screenshots#kernel-module
+    url: /Screenshots
 
   - title: Showcases
     children:
