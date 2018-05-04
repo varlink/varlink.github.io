@@ -1,5 +1,6 @@
 docs:
   - title: Varlink
+    url: /
     children:
       - title: "Interface"
         url: /Home#interface
@@ -17,6 +18,7 @@ docs:
         url: /Home#bridge
 
   - title: Method Call
+    url:   /Method-Call
     children:
       - title: "Call"
         url: /Method-Call#call
