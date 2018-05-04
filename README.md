@@ -1,1 +1,1 @@
-# [Documentation](https://www.varlink.org)
+# [varlink.org](https://www.varlink.org)
