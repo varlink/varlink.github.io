@@ -75,9 +75,9 @@ error ParameterOutOfRange (field: string)
 ## Protocol
 Varlink can operates on any transport that supports the concept of connections. All messages are encoded as JSON objects and terminated with a single `NUL` byte.
 
-For simplicity reasons and to minimize the state the client needs to track, a single connection allows only one single pending method call at the time. Apart from pipelining, a connection is busy until the method call has returned. Replies on the same connection are always received in the order of the calls.
+For simplicity reasons and to minimize the state a client needs to track, on a single conection, messages are always sequentially processed in order they are received. Apart from pipelining, where a connection might buffer several requests, a pending method call keeps the connection busy until its reply is received.
 
-The common case is a simple method call with a single reply. To support _monitoring calls_, _subscriptions_, _chunked data_, calls may carry instructions for the server to not reply, or to reply multiple times to a single method call. See the [Method Call](Method-Call) page for a detailed description.
+The common case is a simple method call with a single reply. To support _monitoring calls_, _subscriptions_, _chunked data_, _streaming_ calls may carry instructions for the server to not reply, or to reply multiple times to a single method call. See the [Method Call](Method-Call) page for a detailed description.
 
 In common programming languages, varlink clients do not require complex modules or libraries, already existing JSON and socket communication facilities are used to integrate natively into the programming language's object model. See the examples in the [Clients](Clients) page.
 
