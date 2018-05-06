@@ -137,7 +137,7 @@ field_name
 ```
 
 ## Parsing Expression Grammar
-```peg
+```regex
 whitespace /* Modeled after ECMA-262, 5th ed., 7.2. \v\f removed */
   = [ \t\u{00A0}\u{FEFF}\u{1680}\u{180E}\u{2000}-\u{200A}\u{202F}\u{205F}\u{3000}]
 
