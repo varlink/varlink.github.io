@@ -73,7 +73,7 @@ error ParameterOutOfRange (field: string)
 ```
 
 ## Protocol
-Varlink can operates on transports that support connections. All messages are encoded as JSON objects and terminated with a single `NUL` byte.
+All messages are encoded as JSON objects and terminated with a single `NUL` byte.
 
 For simplicity reasons and to minimize the state a client needs to track; for every connection, the service sends its responses in the same order that the requests were received. Requests can be [pipelined](https://en.wikipedia.org/wiki/HTTP_pipelining) but not multiplexed; a pending method reply occupies the connection.
 
