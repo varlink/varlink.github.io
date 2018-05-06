@@ -24,6 +24,6 @@ The local activator starting services on-demand and and resolver providing the a
 [![local-system](screenshots/local-system.png)](screenshots/local-system.png)
 
 ## Kernel Module
-The example kernel module with system information and USB monitoring interfaces.
+This proof-of-concept kernel module exports a varlink service over a device node, implementing system information and USB monitoring interfaces.
 
 [![kernel](screenshots/kernel.png)](screenshots/kernel.png)
