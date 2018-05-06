@@ -14,6 +14,7 @@ docs:
         url: /Screenshots
 
   - title: Language Bindings
+    url: /Language-Bindings
     children:
       - title: "C"
         url: https://github.com/varlink/libvarlink
