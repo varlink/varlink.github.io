@@ -79,7 +79,7 @@ For simplicity reasons and to minimize the state a client needs to track; for ev
 
 The common case is a simple method call with a single reply. To support _monitoring calls_, _subscriptions_, _chunked data_, _streaming_, calls may carry instructions for the server to not reply, or to reply multiple times to a single method call. See the [Method Call](Method-Call) page for a detailed description.
 
-In common programming languages, varlink clients do not require complex modules or libraries, already existing JSON and socket communication facilities are used to integrate natively into the programming language's object model. See the examples in the [Clients](Clients) page.
+In common programming languages, varlink clients do not require complex modules or libraries, already existing JSON and socket communication facilities are used to integrate natively into the programming language's object model.
 
 Requests specify the fully-qualified `method` that should be called, along with its input parameters:
 ```javascript
