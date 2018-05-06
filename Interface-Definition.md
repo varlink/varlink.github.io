@@ -14,6 +14,8 @@ Interface files are named after the interface they implement with the suffix `.v
 |[method](#method)|A method with input and output parameters/objects               |
 |[error](#error)  |The name of the error and and optional data describing the error|
 
+Types, methods, error names need to be unique indentifiers in an interface definition; they share the same namespace. They can be referenced by their fully-qualified reverse-domain-name. The method ```GetInfo()``` in the interface ```org.example.test``` is called ```org.example.test.GetInfo```.
+
 ## Type
 With ```type``` a structure of fields (object) can be defined. Following the ```type``` keyword the type name has to be specified. Type names have to start with an uppercase character and continue with alphanumeric letters. Enclosed in ```()``` the declaration of the various fields follows. Field names start with a lowercase character and continue with alphanumeric letters. ```_``` can appear in the middle of the field name, but not at the beginning or at the end. Object declarations specify a field name followed by a colon and a type. Fields are separated by comma.
 
