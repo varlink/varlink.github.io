@@ -11,21 +11,23 @@ title: "Language Bindings"
 ## How to test new language bindings
 
 Checkout the python varlink git repo:
-```
+```shell
 $ git clone https://github.com/varlink/python.git
 $ cd python
 $ cat tests/org.varlink.certification.varlink
 ```
 Write a varlink client for org.varlink.certification calling the methods:
 
-```Start(), Test01(), Test02(…), …, Testxx(…), End()```
+```go
+Start(), Test01(), Test02(…), …, Testxx(…), End()
+```
 
 The return value of the previous call should be the argument of the next call.
 See the example clients in [python](https://github.com/varlink/python/blob/master/varlink/tests/test_certification.py) or [rust](https://github.com/varlink/rust/blob/master/varlink-certification/src/main.rs#L73-L119).
 
 Then you test your client against the python varlink server:
 
-```
+```shell
 $ PYTHONPATH=$(pwd) python3 ./varlink/tests/test_certification.py --varlink=tcp:127.0.0.1:12345
 ```
 
