@@ -6,7 +6,7 @@ toc: true
 This page shows, how to easily add a varlink interface to existing software.
 
 ## Prerequisites
-Checkout the (dnf git repo with branch ```varlink```)[https://github.com/haraldh/dnf]:
+Checkout the [dnf git repo with branch ```varlink```](https://github.com/haraldh/dnf):
 
 ```bash
 $ git clone -b varlink https://github.com/haraldh/dnf.git
@@ -24,7 +24,7 @@ $ sudo dnf install --enablerepo rawhide python3-varlink libvarlink-util
 First, the interface definition has to be specified. With compatibility in mind, we define a general purpose package manager interface: [com.redhat.packages.varlink](https://github.com/haraldh/dnf/blob/varlink/dnf/varlink/com.redhat.packages.varlink).
 
 ## Implementation
-The implementation is done in (main.py)[https://github.com/haraldh/dnf/blob/varlink/dnf/varlink/main.py]
+The implementation is done in [main.py](https://github.com/haraldh/dnf/blob/varlink/dnf/varlink/main.py)
 
 First a ```varlink.Service``` object is created:
 ```python
