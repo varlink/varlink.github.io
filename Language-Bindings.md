@@ -25,10 +25,10 @@ Start(), Test01(), Test02(…), …, Testxx(…), End()
 The return value of the previous call should be the argument of the next call.
 See the example clients in [python](https://github.com/varlink/python/blob/master/varlink/tests/test_certification.py) or [rust](https://github.com/varlink/rust/blob/master/varlink-certification/src/main.rs#L73-L119).
 
-Then you test your client against the python varlink server:
+Then you test your client against the python varlink certification server:
 
 ```shell
-$ PYTHONPATH=$(pwd) python3 ./varlink/tests/test_certification.py --varlink=tcp:127.0.0.1:12345
+$ python -m varlink.tests.test_certification --varlink=tcp:127.0.0.1:12345
 ```
 
 which now listens on 127.0.0.1:12345.
