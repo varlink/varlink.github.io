@@ -1,1 +1,1 @@
-The [varlink.org](https://www.varlink.org) Website
+The [varlink.org](https://varlink.org) Website
