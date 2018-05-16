@@ -39,7 +39,7 @@ from https://github.com/varlink/ against your server. If all works out, then
 your new language bindings should be varlink certified.
 
 ```markdown
-[<img src="/images/varlink-certified.png" alt="varlink-certified" width="240" height="73">](https://www.varlink.org/Language-Bindings)
+[<img src="/images/varlink-certified.png" alt="varlink-certified" width="240" height="73">](https://varlink.org/Language-Bindings)
 ```
 
-[<img src="/images/varlink-certified.png" alt="varlink-certified" width="240" height="73">](https://www.varlink.org/Language-Bindings)
+[<img src="/images/varlink-certified.png" alt="varlink-certified" width="240" height="73">](https://varlink.org/Language-Bindings)
