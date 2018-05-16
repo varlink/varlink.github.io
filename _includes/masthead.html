@@ -2,7 +2,7 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | relative_url }}"><img style="height: 1em; vertical-align:text-bottom" src="{{ site.og_image }}">&nbsp; {{ site.title }}</a>
+        <a class="site-title" style="font-size: 1.4em" href="{{ '/' | relative_url }}"><img style="height: 1em; vertical-align:text-bottom" src="{{ site.og_image }}">&nbsp; {{ site.title }}</a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
