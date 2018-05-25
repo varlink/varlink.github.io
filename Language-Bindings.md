@@ -23,7 +23,7 @@ Start(), Test01(), Test02(…), …, Testxx(…), End()
 ```
 
 The return value of the previous call should be the argument of the next call.
-See the example clients in [python](https://github.com/varlink/python/blob/master/varlink/tests/test_certification.py) or [rust](https://github.com/varlink/rust/blob/master/varlink-certification/src/main.rs#L73-L119).
+See the example clients in [python](https://github.com/varlink/python/blob/master/varlink/tests/test_certification.py) or [rust](https://github.com/varlink/rust/blob/master/varlink-certification/src/main.rs#L73-L138).
 
 Then you test your client against the python varlink certification server:
 
