@@ -129,14 +129,14 @@ Every varlink service offers the `org.varlink.service` interface, which describe
 ## Address
 Varlink services are expressed in URI form:
 
-|Type                          |Example                         |Comment                               |
-|------------------------------|--------------------------------|--------------------------------------|
-|TCP                           |_tcp:127.0.0.1:12345_           |hostname/IP address and port          |
-|SSH                           |_ssh://example.org_             |optional port number [:PORT]          |
-|UNIX socket                   |_unix:/run/org.example.ftl_     |optional access `;mode=0666` parameter|
-|UNIX abstract namespace socket|_unix:@org.example.ftl_         |                                      |
-|executed binary               |_exec:/usr/bin/org.example.ftl_ |Client-only, uses a UNIX socket       |
-|device node                   |_device:/dev/org.kernel.example_|                                      |
+|Type                          |Example                         |Comment                                  |
+|------------------------------|--------------------------------|-----------------------------------------|
+|TCP                           |_tcp:127.0.0.1:12345_           |hostname/IP address and port             |
+|SSH                           |_ssh://example.org_             |Client-only, optional port number [:PORT]|
+|UNIX socket                   |_unix:/run/org.example.ftl_     |optional access `;mode=0666` parameter   |
+|UNIX abstract namespace socket|_unix:@org.example.ftl_         |                                         |
+|executed binary               |_exec:/usr/bin/org.example.ftl_ |Client-only, uses a UNIX socket          |
+|device node                   |_device:/dev/org.kernel.example_|                                         |
 
 See the [transport screenshot](Screenshots#transports) for examples.
 
