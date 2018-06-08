@@ -2,6 +2,8 @@
 title: "Method Call"
 ---
 
+Call and Reply are objects with properties, they are conceptually similar to HTTP headers. The `parameters` are the payload. Possible local vendor-specific extensions must be nested in an object named after the vendor in reverse-domain notation.
+
 ## Call
 ```nim
 (
