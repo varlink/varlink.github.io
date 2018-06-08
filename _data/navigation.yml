@@ -40,7 +40,7 @@ docs:
     children:
       - title: "Command Line Tool"
         url: https://github.com/varlink/libvarlink/blob/master/tool/
-      - title: "Linux kernel module"
+      - title: "Proof Of Concept Linux kernel module"
         url: https://github.com/varlink/linux-varlink/
-      - title: "HTTP Proxy"
+      - title: "Proof Of Concept HTTP Proxy"
         url: https://github.com/cherry-pick/org.varlink.http
