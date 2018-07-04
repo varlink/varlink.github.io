@@ -132,7 +132,7 @@ Varlink services are expressed in URI form:
 |Type                          |Example                         |Comment                                  |
 |------------------------------|--------------------------------|-----------------------------------------|
 |TCP                           |_tcp:127.0.0.1:12345_           |hostname/IP address and port             |
-|UNIX socket                   |_unix:/run/org.example.ftl_     |optional access `;mode=0666` parameter   |
+|UNIX socket                   |_unix:/run/org.example.ftl_     |                                         |
 |UNIX abstract namespace socket|_unix:@org.example.ftl_         |                                         |
 |device node                   |_device:/dev/org.kernel.example_|                                         |
 
