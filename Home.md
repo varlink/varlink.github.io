@@ -127,7 +127,7 @@ Errors contain the fully-qualified error and optional `parameters` as specified 
 Every varlink service offers the `org.varlink.service` interface, which describes all interfaces the service provides and provides information about the service implementation itself. See the [Service](Service) page for details.
 
 ## Address
-Varlink services are expressed in URI form:
+Varlink services are expressed in URI notation. All properties after a `;` character should be ignored to allow future extensions.
 
 |Type                          |Example                         |Comment                                  |
 |------------------------------|--------------------------------|-----------------------------------------|
