@@ -9,7 +9,7 @@ The varlink command line tool with TAB-completion of locally registered interfac
 [![commandline](screenshots/commandline.png)](screenshots/commandine.png)
 
 ## Connections
-The command line tool calling a method which will be locally resolved, or call a UNIX-socket directly, or execute a binary and connect to it, or call a remote host over SSH.
+The command line tool calling a method which will be locally resolved, or call a UNIX-socket directly, or execute (socket activation protocol) a binary and connect to it, or connect to a remote host with SSH and run a varlink bridge on the remote host.
 
 [![connections](screenshots/connections.png)](screenshots/connections.png)
 
