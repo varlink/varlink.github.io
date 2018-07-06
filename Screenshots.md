@@ -11,7 +11,7 @@ The varlink command line tool with TAB-completion of locally registered interfac
 ## Connections
 The command line tool calling a method which will be locally resolved, or call a UNIX-socket directly, or execute a binary and connect to it, or call a remote host over SSH.
 
-[![transports](screenshots/transports.png)](screenshots/transports.png)
+[![connections](screenshots/connections.png)](screenshots/connections.png)
 
 ## Remote Host
 Running a bridge on the remote system. All local interfaces on the remote host are accessible to a SSH client.
