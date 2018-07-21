@@ -14,7 +14,7 @@ The command line tool calling a method which will be locally resolved, or call a
 [![connections](screenshots/connections.png)](screenshots/connections.png)
 
 ## Remote Host
-Running a bridge on the remote system. All local interfaces on the remote host are accessible to a SSH client.
+Running a bridge on the remote system. All local interfaces on the remote host are accessible to e.g. a SSH client. The `varlink` command line tool will pass its connetion through the binary executed with the `--bridge=` option, in this case `ssh`. The bridge executet on the remote side will connect to the local services available on the remote machine. It the option `--connect=` is given to the remote bridge command, the bridge will connect directly to a known remote address instead of trying to resolve the address with the local resolver.
 
 [![remote-host](screenshots/remote-host.png)](screenshots/remote-host.png)
 
