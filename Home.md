@@ -159,7 +159,7 @@ Multiple services can implement and offer the same interface, but only one of th
 See the [`org.varlink.resolver`](https://github.com/cherry-pick/com.redhat.resolver/blob/master/src/org.varlink.resolver.varlink) interface for details.
 
 ## Bridge
-The [varlink command line tool](Clients#varlink-command-line-tool) supports a `bridge` mode to bridge a single connection to the resolver and its registered services. It intercepts the calls to the `org.varlink.service` interface and replies with the information the resolver supplies.
+The [varlink](Clients#varlink-command-line-tool) command line tool supports a `bridge` mode to bridge a single connection to the resolver and its registered services. It intercepts the calls to the `org.varlink.service` interface and replies with the information the resolver supplies.
 
 If the bridge is used over SSH, all the interfaces of the locally running services appear to the remote ssh client as if they were implemented by the bridge.
 
