@@ -17,7 +17,7 @@ Call and Reply are objects with properties, they are conceptually similar to HTT
 
 |Keyword   |Description                                     |
 |----------|------------------------------------------------|
-|method    |*[mandatory]* fully-qualified method name _interface_._method_|
+|method    |fully-qualified method name _interface_._method_|
 |parameters|input parameters                                |
 |oneway    |instructs the server to suppress its reply. The server must adhere to the instruction, to allow clients to associate the next reply to the next call issued without `oneway`|
 |more      |requests possible multiple replies to the same call. The server's `more` support is optional, if it does not reply with `continues`, the call will behave like a simple method call and the connection is free to be used for the next method call. If the server replies with `continues`, the connection will be busy until the server sends the final message to the call by not adding `continues`. A client which is no longer interested in the replies from the server simply closes the connection|
