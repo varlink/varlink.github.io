@@ -15,8 +15,7 @@ provide their documentation along with the interface description.
 Everything is readable. Varlink uses plain text messages, has no magic numbers, no unnamed values, is easily debuggable with
 things like [strace](https://en.wikipedia.org/wiki/Strace), [netcat](https://en.wikipedia.org/wiki/Netcat), [jq](https://stedolan.github.io/jq/).
 
-Varlink uses direct connections, has no central message handling component, it is easily debugged, secured,
-isolated, tested.
+Varlink itself is simpler than the service that uses it. Varlink uses direct connections, has no central message handling component, it is easily debugged, secured, isolated, tested.
 
 ## Which transports can be used to speak varlink?
 
