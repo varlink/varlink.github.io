@@ -1,6 +1,5 @@
 ---
 title: "FAQ"
-toc: true
 ---
 
 ## What does varlink provide?
