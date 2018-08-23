@@ -4,17 +4,18 @@ toc: true
 ---
 
 ## What does varlink provide?
-Varlink uses a simple human and machine readable text file to describe an interface with all its data
-types, method calls and errors. The text file, in its simplicity, does not require any specific
-knowledge to join a discussion about design, development, and maintenance of an API.
+Everybody can read it. Varlink uses a simple human and machine readable text file to describe an
+interface with all its data types, method calls and errors. The text file, in its simplicity,
+does not require any specific knowledge to join a discussion about design, development, and maintenance of an API.
 
-Varlink interfaces describe themselves readable to humans and reliably consumable by machines. Varlink
-interfaces provide their documentation along with the interface description.
+It documents itself, in the sources and on the wire. Varlink interfaces describe themselves readable to
+humans and reliably consumable by machines. Verlink services are introspectable at runtime. Varlink interfaces
+provide their documentation along with the interface description.
 
 Varlink uses plain text messages, has no magic numbers, no unnamed values, is easily debuggable with
-things like strace, netcat, jq.
+things like [strace](https://en.wikipedia.org/wiki/Strace), [netcat](https://en.wikipedia.org/wiki/Netcat), [jq](https://stedolan.github.io/jq/).
 
-Varlink uses direct connections, has no central message handling, it is easily debugged, secured,
+Varlink uses direct connections, has no central message handling component, it is easily debugged, secured,
 isolated, tested.
 
 ## Which transports can be used to speak varlink?
