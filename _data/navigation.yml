@@ -12,6 +12,8 @@ docs:
         url: /Ideals
       - title: Screenshots
         url: /Screenshots
+      - title: FAQ
+        url: /FAQ
 
   - title: Language Bindings
     url: /Language-Bindings
