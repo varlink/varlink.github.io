@@ -97,14 +97,13 @@ client can call the ```method org.varlink.resolver.Resolve(interface: string) ->
 ## How are varlink services accessed from a remote machine?
 The varlink command line tool, as well as some varlink language bindings offer the possibility to
 connect to a service via a ```bridge```.
-CLI:
 ```bash
 varlink --bridge "…"
 ```
 
-* python:
+* Python:
 [varlink.Client.new_with_bridge()](https://varlink.org/python/#varlink.Client.new_with_bridge)
-* rust:
+* Rust:
 [Connection::with_bridge()](https://docs.rs/varlink/4.0.0/varlink/struct.Connection.html#method.with_bridge)
 
 The bridge command normally is ```ssh <host> varlink bridge```, calling ```varlink bridge``` on the
