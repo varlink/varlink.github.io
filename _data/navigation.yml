@@ -36,7 +36,7 @@ docs:
       - title: "DNF"
         url: /Adding-varlink-to-DNF
       - title: "podman"
-        url: https://github.com/projectatomic/libpod/blob/master/cmd/podman/varlink/io.projectatomic.podman.varlink
+        url: https://github.com/containers/libpod/blob/master/cmd/podman/varlink/io.podman.varlink
 
   - title: External Links
     children:
