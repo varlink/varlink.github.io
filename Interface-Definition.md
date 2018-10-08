@@ -159,14 +159,14 @@ _
     = whitespace / comment / eol_r
 
 field_name
-    = [a-z](_?[a-z0-9])*
+    = [A-Za-z](_?[A-Za-z0-9])*
 
 name
     = [A-Z][A-Za-z0-9]*
 
 interface_name /* no hyphen at begin and end */
 	= [a-z]+ ( '.' [a-z0-9]+ ([-] [a-z0-9]+)* )+
-	  / "xn--" [a-z0-9]+ ( '.' [a-z0-9]+ ([-] [a-z0-9]+)* )+
+
 dict
     = "[string]"
 
