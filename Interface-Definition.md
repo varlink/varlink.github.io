@@ -127,7 +127,7 @@ enum_fields
         field_name "," enum_fields
 
 interface_name
-        a valid internet domain name with its components reversed
+        [a-z]([-]*[a-z0-9])*(\.[a-z0-9]([-]*[a-z0-9])*)+
 
 name
         [A-Z][A-Za-z0-9]*
@@ -164,8 +164,8 @@ field_name
 name
     = [A-Z][A-Za-z0-9]*
 
-interface_name /* no hyphen at begin and end */
-	= [a-z]+ ( '.' [a-z0-9]+ ([-] [a-z0-9]+)* )+
+interface_name
+	= [a-z]([-]* [a-z0-9])* ( '.' [a-z0-9]([-]*[a-z0-9])* )+
 
 dict
     = "[string]"
