@@ -139,7 +139,7 @@ field_name
 ## Parsing Expression Grammar
 ```
 whitespace /* Modeled after ECMA-262, 5th ed., 7.2. \v\f removed */
-   = [ \t\u{00A0}\u{FEFF}\u{1680}\u{180E}\u{2000}-\u{200A}\u{202F}\u{205F}\u{3000}]
+    = [ \t\u{00A0}\u{FEFF}\u{1680}\u{180E}\u{2000}-\u{200A}\u{202F}\u{205F}\u{3000}]
 
 eol_r /* Modeled after ECMA-262, 5th ed., 7.3. */
   = "\n"
@@ -219,5 +219,5 @@ member
     / _* e:error
 
 interface
-	= _* "interface" _+ interface_name eol ( member ++ eol ) _*
+    = _* "interface" _+ interface_name eol ( member ++ eol ) _*
 ```
