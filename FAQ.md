@@ -49,7 +49,7 @@ Complex interfaces can use multiple connections at the same time.
 
 The varlink message [header](/Method-Call) can be extended by vendors if needed. Added keys should use
 the reverse-domain notation including the vendor's name. The concept is similar to the X-prefix used for
-HTTP headers, but neither they nor naked keywords should be added by vendors, they may clash with
+HTTP headers, but neither they nor naked keywords should be added by vendors, since they may clash with
 other vendors or future varlink protocol specifications.
 
 ## Why are records separated by a NUL character and do not specify a length?
@@ -57,7 +57,7 @@ other vendors or future varlink protocol specifications.
 The simplest possible transport of varlink messages is a raw streaming socket, which forwards JSON
 records separated by a NUL character. Conceptually the NUL character belongs to the transport not to
 the varlink message. If varlink messages are encapsulated in HTTP, HTTP will specify the record length
- and not use a NUL byte.
+and not use a NUL byte.
 
 ## Why are there no unsigned integers, and why are there no integer sizes specified?
 
@@ -73,7 +73,7 @@ represented as a name/value pair.
 
 ## Can I transmit file descriptors?
 
-Varlink does intentionally not support features or side-effects specific to transports. Encapsulating
+Varlink intentionally does not support features or side-effects specific to transports. Encapsulating
 varlink messages in other protocols, passing them over proxies is a requirement of varlink.
 
 ## How can I reference a file?
@@ -91,7 +91,7 @@ connections are similar to the websocket concept.
 
 ## When is a ```oneway``` request useful?
 
-Setting ```oneway``` in a [method call](/Method-Call) means, that the service will not send a reply. This
+Setting ```oneway``` in a [method call](/Method-Call) means that the service will not send a reply. This
 might be useful when many messages are sent as part of one transaction, and only one single reply is
 needed to confirm the transaction. It might also be useful for non-critical data like a debugging
 interface, to minimize round-trip handling.
@@ -142,7 +142,7 @@ If your interface has users, you should not break the interface, only extend it,
 incompatibly change things which might be already in use. Clients can fully introspect a service and
 figure out which features the interface supports; this is more expressive than any simple numbering
 scheme. If you break the API or remove stuff, just release it with a new name, commonly done by adding
- a number to the interface name, like ```org.example.interface2```.
+a number to the interface name, like ```org.example.interface2```.
 
 ## How do I extend an interface in a backwards compatible way?
 
