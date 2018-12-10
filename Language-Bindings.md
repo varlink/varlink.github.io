@@ -11,10 +11,10 @@ title: "Language Bindings"
 ## OS Support
 
 T
-:[TCP](/#address) sockets
+: [TCP](/#address) sockets
 
 U
-:[UNIX](/#address) domain sockets
+: [UNIX](/#address) domain sockets
 
 A
 : [Activation](/#activation) via file descriptors
