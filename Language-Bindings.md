@@ -8,6 +8,27 @@ title: "Language Bindings"
 * [Python](https://github.com/varlink/python)
 * [Rust](https://github.com/varlink/rust)
 
+## OS Support
+
+T
+:[TCP](/#address) sockets
+
+U
+:[UNIX](/#address) domain sockets
+
+A
+: [Activation](/#activation) via file descriptors
+
+B
+: [Bridge](/#bridge) mode in CLI tool
+
+|            | Linux | MacOS | Win10 |
+| -----------|:------|:------|:------|
+| C          |  TUAB |       |       |
+| Go         |  TUAB |  TUAB |  T    |
+| Python     |  TUAB |  TUAB |  T    |
+| Rust       |  TUAB |  TUAB |  TU   |
+
 ## How to test new language bindings
 
 Checkout the python varlink git repo:
