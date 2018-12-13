@@ -27,7 +27,7 @@ B
 | C          |  TUAB |       |       |
 | Go         |  TUAB |  TUAB |  T    |
 | Python     |  TUAB |  TUAB |  T    |
-| Rust       |  TUAB |  TUAB |  TU   |
+| Rust       |  TUAB |  TUAB |  TUAB |
 
 ## How to test new language bindings
 
