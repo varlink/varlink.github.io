@@ -24,10 +24,10 @@ B
 
 |            | Linux | MacOS | Win10 |
 | -----------|:------|:------|:------|
-| C          |  TUAB |       |       |
-| Go         |  TUAB |  TUAB |  T    |
-| Python     |  TUAB |  TUAB |  T    |
-| Rust       |  TUAB |  TUAB |  TUAB |
+| C          | TUAB  |       |       |
+| Go         | TUAB  | TUAB  | T     |
+| Python     | TUAB  | TUAB  | T     |
+| Rust       | TUAB  | TUAB  | TUB   |
 
 ## How to test new language bindings
 
