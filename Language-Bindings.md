@@ -22,12 +22,15 @@ A
 B
 : [Bridge](/#bridge) mode in CLI tool
 
+b
+: [Bridge](/#bridge) mode in client connection
+
 |            | Linux | MacOS | Win10 |
 | -----------|:------|:------|:------|
-| C          | TUAB  |       |       |
-| Go         | TUAB  | TUAB  | T     |
-| Python     | TUAB  | TUAB  | T     |
-| Rust       | TUAB  | TUAB  | TUB   |
+| C          | TUABb |       |       |
+| Go         | TUABb | TUABb | Tb    |
+| Python     | TUABb | TUABb | Tb    |
+| Rust       | TUABb | TUABb | TUBb  |
 
 ## How to test new language bindings
 
