@@ -198,7 +198,7 @@ venum
     = '(' ( field_name ** ',' ) _* ')'
 
 argument
-    = _* field_name _* ':' _* ( type ++ ',' )
+    = _* field_name _* ':' _* type
 
 vstruct
     = '(' ( argument ** ',' ) _* ')'
