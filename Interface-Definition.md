@@ -159,7 +159,7 @@ _
     = whitespace / comment / eol_r
 
 field_name
-    = [A-Za-z](_?[A-Za-z0-9])*
+    = [A-Za-z]('_'?[A-Za-z0-9])*
 
 name
     = [A-Z][A-Za-z0-9]*
