@@ -75,7 +75,7 @@ error ParameterOutOfRange (field: string)
 ## Protocol
 All messages are encoded as JSON objects and terminated with a single `NUL` byte.
 
-For simplicity reasons and to minimize the state a client needs to track; for every connection, the service sends its responses in the same order that the requests were received. Requests can be [pipelined](https://en.wikipedia.org/wiki/HTTP_pipelining) but not multiplexed; a pending method reply occupies the connection.
+A service responds to requests in the same order that they are received—messages are never multiplexed. However, multiple requests can be queued on a connection to enable [pipelining](https://en.wikipedia.org/wiki/HTTP_pipelining). This simplifies and minimizes the amount of state clients need to track.
 
 The common case is a simple method call with a single reply. To support _monitoring calls_, _subscriptions_, _chunked data_, _streaming_, calls may carry instructions for the server to not reply, or to reply multiple times to a single method call. See the [Method Call](Method-Call) page for a detailed description.
 
