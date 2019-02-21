@@ -174,8 +174,9 @@ compatible and should be avoided.
 ## How does socket activation work?
 
 Varlink language bindings commonly implement the systemd socket activation protocol. The environment
-of the started service will be augmented with the variables LISTEN_FDS, LISTEN_NAMES, LISTEN_PID. See
-details at: https://www.freedesktop.org/software/systemd/man/sd_listen_fds.html
+of the started service will be augmented with the variables LISTEN_FDS, LISTEN_NAMES, LISTEN_PID.
+
+[Read more](https://www.freedesktop.org/software/systemd/man/sd_listen_fds.html)
 
 ## How do I implement exit-on-idle for my service?
 
