@@ -127,7 +127,7 @@ enum_fields
         field_name "," enum_fields
 
 interface_name
-        [a-z]([-]*[a-z0-9])*(\.[a-z0-9]([-]*[a-z0-9])*)+
+        [A-Za-z]([-]*[A-Za-z0-9])*(\.[A-Za-z0-9]([-]*[A-Za-z0-9])*)+
 
 name
         [A-Z][A-Za-z0-9]*
