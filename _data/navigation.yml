@@ -35,8 +35,6 @@ docs:
     children:
       - title: "DNF"
         url: /Adding-varlink-to-DNF
-      - title: "podman"
-        url: https://github.com/containers/libpod/blob/master/pkg/varlink/io.podman.varlink
 
   - title: External Links
     children:
