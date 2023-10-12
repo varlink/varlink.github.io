@@ -82,11 +82,11 @@ member
         error
 
 type_alias
-        "type" name object
+        "type" name struct
         "type" name enum
 
 method
-        "method" name object "->" object
+        "method" name struct "->" struct
 
 error
         "error" name object
