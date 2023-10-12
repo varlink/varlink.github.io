@@ -111,6 +111,7 @@ element_type
 
 struct
         "(" struct_fields ")"
+        "(" ")"
 
 struct_fields
         struct_field
