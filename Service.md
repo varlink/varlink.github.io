@@ -34,6 +34,12 @@ error MethodNotImplemented (method: string)
 
 # One of the passed parameters is invalid.
 error InvalidParameter (parameter: string)
+
+# Client is denied access
+error PermissionDenied ()
+
+# Method is expected to be called with 'more' set to true, but wasn't
+error ExpectedMore ()
 ```
 
 ## Example Information
