@@ -24,6 +24,8 @@ docs:
         url: https://github.com/varlink/go
       - title: "Java"
         url: https://github.com/varlink/java
+      - title: "JavaScript"
+        url: https://github.com/pzmarzly/varlink-js
       - title: "Python"
         url: https://github.com/varlink/python
       - title: "Rust"
