@@ -5,6 +5,7 @@ title: "Language Bindings"
 ## Existing language bindings
 * [C](https://github.com/varlink/libvarlink)
 * [Go](https://github.com/varlink/go)
+* [JavaScript](https://github.com/pzmarzly/varlink-js)
 * [Python](https://github.com/varlink/python)
 * [Rust](https://github.com/varlink/rust)
 
@@ -29,6 +30,7 @@ b
 | -----------|:------|:------|:------|
 | C          | TUABb |       |       |
 | Go         | TUABb | TUABb | Tb    |
+| JavaScript | TU    | TU    | T     |
 | Python     | TUABb | TUABb | Tb    |
 | Rust       | TUABb | TUABb | TUBb  |
 
