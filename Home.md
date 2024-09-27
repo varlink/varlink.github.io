@@ -149,7 +149,7 @@ A listen socket a.k.a "FD3" might be passed to a varlink service at startup.
 
 The service activator should pass the command line option _--varlink=[ADDRESS](#address)_ to the service, to make the listening address and possible parameters known to the service. It also shows the listening address in _ps_, which helps to debug a running service.
 
-See an example implementation of a [service activator](https://github.com/cherry-pick/com.redhat.resolver/blob/master/src/service.c#L112).
+See an example implementation of a [service activator](https://github.com/cherry-pick/com.redhat.resolver/blob/71114fbd57660c510503bb98460e7aa53627d78f/src/service.c#L114).
 
 ## Resolver
 Public varlink interfaces are registered system-wide by their well-known address, by default _/run/org.varlink.resolver_. The resolver translates a given varlink interface to the service address which provides this interface.
