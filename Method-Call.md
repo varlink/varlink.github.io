@@ -26,7 +26,7 @@ Call and Reply are objects with properties, they are conceptually similar to HTT
 ## Reply
 ```nim
 (
-  parameters: object,
+  parameters: ?object,
   continues: ?bool,
   error: ?string
 )
