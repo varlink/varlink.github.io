@@ -82,39 +82,39 @@ The common case is a simple method call with a single reply. To support _monitor
 In common programming languages, varlink clients do not require complex modules or libraries, already existing JSON and socket communication facilities are used to integrate natively into the programming language's object model.
 
 Requests specify the fully-qualified `method` that should be called, along with its input parameters:
-```javascript
+```json
 {
   "method": "org.example.ftl.CalculateConfiguration",
   "parameters": {
     "current": {
-      "longitude": "27.13",
-      "latitude": "-12.4",
-      "distance": "48732498234"
+      "longitude": 27.13,
+      "latitude": -12.4,
+      "distance": 48732498234
     },
     "target": {
-      "longitude": "-48.7",
-      "latitude": "12.9",
-      "distance": "354667658787"
+      "longitude": -48.7,
+      "latitude": 12.9,
+      "distance": 354667658787
     }
   }
 }
 ```
 
 A service replies with an object that contains the output `parameters`:
-```javascript
+```json
 {
   "parameters": {
     "configuration": {
-      "speed": "32434234",
-      "trajectory": "686787",
-      "duration": "13256445"
+      "speed": 32434234,
+      "trajectory": 686787,
+      "duration": 13256445
     }
   }
 }
 ```
 
 Errors contain the fully-qualified error and optional `parameters` as specified and documented in the varlink interface file:
-```javascript
+```json
 {
   "error": "org.example.ftl.ParameterOutOfRange",
   "parameters": { 
