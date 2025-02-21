@@ -87,14 +87,14 @@ Requests specify the fully-qualified `method` that should be called, along with 
   "method": "org.example.ftl.CalculateConfiguration",
   "parameters": {
     "current": {
-      "longitude": "27.13",
-      "latitude": "-12.4",
-      "distance": "48732498234"
+      "longitude": 27.13,
+      "latitude": -12.4,
+      "distance": 48732498234
     },
     "target": {
-      "longitude": "-48.7",
-      "latitude": "12.9",
-      "distance": "354667658787"
+      "longitude": -48.7,
+      "latitude": 12.9,
+      "distance": 354667658787
     }
   }
 }
@@ -105,9 +105,9 @@ A service replies with an object that contains the output `parameters`:
 {
   "parameters": {
     "configuration": {
-      "speed": "32434234",
-      "trajectory": "686787",
-      "duration": "13256445"
+      "speed": 32434234,
+      "trajectory": 686787,
+      "duration": 13256445
     }
   }
 }
