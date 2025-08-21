@@ -66,7 +66,7 @@ error UnknownAction(action: string, more_data: DetailedError)
 ## Grammar
 All whitespace (space, `\t`, `\r`, or `\n`) is ignored, except inside comments, which are started with `#` and extend to the next `\n`.
 
-Comments that start on a new line and are immediately followed by `interface`, `method`, `type` are documentation for that following declaration. These comments may span multiple lines.
+Comments that start on a new line and are immediately followed by `interface`, `method`, `type`, `error` are documentation for that following declaration. These comments may span multiple lines.
 
 ```
 interface
