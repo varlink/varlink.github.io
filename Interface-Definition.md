@@ -26,6 +26,7 @@ type MyType (
    example_float: float,
    example_string: string,
    example_object: object,
+   example_any: any,
    example_enum: (one, two, three),
    example_struct: (first: int, second: string),
    example_array: []string,
@@ -49,6 +50,7 @@ type MyType (
 |Array            |[]      |Array of types                                 |```[]int```                       |
 |Nullable         |?       |Nullable type/Maybe                            |```?string```                     |
 |Foreign object   |object  |Foreign untyped/raw object                     |```payload: object```             |
+|Any              |any     |Any valid varlink type                         |```value: any```                  |
 
 ## Method
 Method names start with an uppercase character and continue with alphanumeric letters and specify an input and output parameter object.
@@ -108,6 +110,7 @@ element_type
         "float"
         "string"
         "object"
+        "any"
 
 struct
         "(" struct_fields ")"
@@ -183,6 +186,7 @@ element_type
     / "float"
     / "string"
     / "object"
+    / "any"
     / name
     / venum
     / vstruct
