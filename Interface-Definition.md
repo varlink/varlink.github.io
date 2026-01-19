@@ -50,7 +50,7 @@ type MyType (
 |Array            |[]      |Array of types                                 |```[]int```                       |
 |Nullable         |?       |Nullable type/Maybe                            |```?string```                     |
 |Foreign object   |object  |Foreign untyped/raw object                     |```payload: object```             |
-|Any              |any     |Any valid varlink type                         |```value: any```                  |
+|Any              |any     |Any valid varlink type but null                |```value: any```                  |
 
 ## Method
 Method names start with an uppercase character and continue with alphanumeric letters and specify an input and output parameter object.
