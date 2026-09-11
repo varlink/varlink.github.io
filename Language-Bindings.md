@@ -7,6 +7,7 @@ title: "Language Bindings"
 * [Go](https://github.com/varlink/go)
 * [JavaScript](https://github.com/pzmarzly/varlink-js)
 * [Python](https://github.com/varlink/python)
+* [Python ayncio](https://github.com/helmutg/asyncvarlink)
 * [Rust](https://github.com/varlink/rust)
 
 ## OS Support
@@ -26,13 +27,14 @@ B
 b
 : [Bridge](/#bridge) mode in client connection
 
-|            | Linux | MacOS | Win10 |
-| -----------|:------|:------|:------|
-| C          | TUABb |       |       |
-| Go         | TUABb | TUABb | Tb    |
-| JavaScript | TU    | TU    | T     |
-| Python     | TUABb | TUABb | Tb    |
-| Rust       | TUABb | TUABb | TUBb  |
+|                | Linux | MacOS | Win10 |
+| ---------------|:------|:------|:------|
+| C              | TUABb |       |       |
+| Go             | TUABb | TUABb | Tb    |
+| JavaScript     | TU    | TU    | T     |
+| Python         | TUABb | TUABb | Tb    |
+| Python asyncio | TUA   | TUA   | T     |
+| Rust           | TUABb | TUABb | TUBb  |
 
 ## How to test new language bindings
 
